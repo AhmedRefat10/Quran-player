@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2a2a2af5;
+  color: #e9f7f7ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #0e0e0ef5;
+  border-radius: 10px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+}
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.top-menu i {
+  border: 1px solid #4c4b4b;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: #4c4b4b;
+  cursor: pointer;
+}
+.surah-img {
+  border: 1px solid #4c4b4b;
+  border-radius: 50%;
+  width: 200px;
+}
+.surah-name {
+  margin: 10px 0 5px 0;
+  font-size: 27px;
+}
+.sheikh-name {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+audio {
+  width: 280px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.controls-btns {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.controls-btns i {
+  border-radius: 50%;
+  padding: 25px;
+  background-color: #4c4b4b;
+  font-size: 20px;
+  cursor: pointer;
+}
+.controls-btns .hidden,
+.hidden {
+  display: none;
+}
+.controls-btns .active {
+  display: block;
+}

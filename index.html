@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="js/all.js" />
+    <link rel="stylesheet" href="js/all.min.js" />
+    <script src="js/app.js" defer></script>
+    <title>Quran player</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-app">
+        <div class="top-menu">
+          <i class="fa-solid fa-arrow-right"></i>
+          <p class="playing-top">playing 1 of 3</p>
+          <i class="fa-solid fa-bars songs-bar"></i>
+        </div>
+      </div>
+      <div class="surah-info">
+        <img src="" alt="surah img" class="surah-img" />
+        <p class="surah-name"></p>
+        <p class="sheikh-name"></p>
+        <audio src="" controls></audio>
+      </div>
+      <div class="controls-btns">
+        <i class="fa-solid fa-backward-fast prev-btn"></i>
+        <div class="pause-play-btn">
+          <i class="fa-solid fa-play play-btn"></i>
+          <i class="fa-solid fa-pause pause-btn hidden"></i>
+        </div>
+
+        <i class="fa-solid fa-forward-fast next-btn"></i>
+      </div>
+    </div>
+    <div class="surah-lists hidden"></div>
+  </body>
+</html>

@@ -43,7 +43,7 @@ const allSurah = [
 let currentSurah;
 // DEFAULT
 (function () {
-  currentSurah = allSurah.length;
+  currentSurah = 0;
   playingTop.textContent = `playing ${1} of ${allSurah.length}`;
   surahImg.src = `images/${allSurah[0].sheikh}.jpg`;
 
@@ -57,7 +57,6 @@ let currentSurah;
 })();
 
 const switching = function () {
-  console.log(currentSurah);
   // change playing top
   playingTop.textContent = `playing ${currentSurah + 1} of ${allSurah.length}`;
   // change img
